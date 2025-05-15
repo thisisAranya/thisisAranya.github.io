@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Aranya Saha"
-  pronouns         : "he/his" # example: "she/her"  
+  pronouns         : # example: "she/her"  
   bio              : "Machine Learning Engineer"
   location         : "Dhaka, Bangladesh"
   employer         : # "Red Brick University"

@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Welcome!"
+title                    : "Aranya Saha"
 title_separator          : "-"
 name                     : &name "Aranya Saha"
 description              : &description "personal description"
@@ -52,7 +52,7 @@ author:
 
   # Social media
   bluesky          : #"bsky.app" # Replace this with you Bluesky username
-  facebook         : "https://www.facebook.com/aranyasaha26" # Username
+  facebook         : "aranyasaha26" # Username
   flickr           :  # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/aranya-saha/" # Username
+  linkedin         : "aranya-saha" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -73,7 +73,7 @@ author:
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "https://www.youtube.com/@aranyasaha1610" # Username
+  youtube          : "@aranyasaha1610" # Username
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings

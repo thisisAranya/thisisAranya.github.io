@@ -1,7 +1,8 @@
 ---
 title: "A Multi-Stage Deep Learning Approach to Tuberculosis Detection with Explainable Insights"
 collection: publications
-permalink: '/publication/2010-10-01-paper-title-number-2'
+category: manuscripts
+permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'Accepted at NCIM 2025, this work proposes a multi-stage deep learning pipeline for automated tuberculosis detection, integrating explainable AI to enhance clinical trust.'
 date: 2025-06-28
 venue: 'Accepted at the 2nd International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM 2025), DUET, Gazipur, Bangladesh'

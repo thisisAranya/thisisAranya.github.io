@@ -1,14 +1,16 @@
 # Basic Information
 title: Aranya Saha
 position: Incoming Ph.D. Student
-affiliation: University of Maryland, College Park
-affiliation_link: https://ece.umd.edu/
+# affiliation: University of Maryland, College Park
+affiliation: The Ohio State University
+affiliation_link: https://cse.osu.edu/
 email: aranyasaha932 (at) gmail.com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Aranya Saha, Efficient AI, Trustworthy AI, Multimodal Learning, Reinforcement Learning, UMD, BUET
-description: Aranya Saha is a Ph.D. student in Electrical and Computer Engineering at the University of Maryland, College Park, advised by Dr. Sanghamitra Dutta. His research spans Efficient AI, Trustworthy AI, Information Theory, and Multimodal Learning.
+# description: Aranya Saha is a Ph.D. student in Electrical and Computer Engineering at the University of Maryland, College Park, advised by Dr. Sanghamitra Dutta. His research spans Efficient AI, Trustworthy AI, Information Theory, and Multimodal Learning.
+description: Aranya Saha is a Ph.D. student in Computer Science & Engineering at The Ohio State University, advised by Dr. Zhihui Zhu. His research spans Efficient AI, Trustworthy AI, Information Theory, and Multimodal Learning.
 canonical: https://thisisaranya.github.io/
 
 # Links 

@@ -20,6 +20,13 @@
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+      (function() {
+        var storedTheme = localStorage.getItem("theme");
+        var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.setAttribute("data-theme", storedTheme || (prefersDark ? "dark" : "light"));
+      })();
+    </script>
     
     {% if site.font == "Sans Serif" %}
     <link rel="stylesheet" href="{{ "/assets/css/font_sans_serif.css" | relative_url }}">
@@ -59,6 +66,9 @@
         {% for item in site.nav_links %}
         <a class="normal{% if forloop.first %} right{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
         {% endfor %}
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle dark mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
       </div>
 
       <a href="javascript:void(0);" class="icon" onclick="toggleNav()" aria-label="Open navigation">
@@ -155,6 +165,26 @@
         links.classList.toggle("open");
         icon.classList.toggle("active");
       }
+
+      (function() {
+        var button = document.querySelector(".theme-toggle");
+        if (!button) return;
+
+        function setTheme(theme, persist) {
+          document.documentElement.setAttribute("data-theme", theme);
+          if (persist) localStorage.setItem("theme", theme);
+          var isDark = theme === "dark";
+          button.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+          button.innerHTML = isDark ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+        }
+
+        setTheme(document.documentElement.getAttribute("data-theme") || "light", false);
+
+        button.addEventListener("click", function() {
+          var current = document.documentElement.getAttribute("data-theme") || "light";
+          setTheme(current === "dark" ? "light" : "dark", true);
+        });
+      })();
     </script>
     {% if site.google_analytics %}
     <script>

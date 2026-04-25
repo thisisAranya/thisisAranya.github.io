@@ -48,6 +48,15 @@ html[data-theme="dark"] {
     }
 }
 
+body {
+    font-size: 15px;
+    line-height: 1.62;
+}
+
+.wrapper {
+    width: 1020px;
+}
+
 .topnav {
     background-color: #13294B;
     overflow: hidden;
@@ -71,7 +80,7 @@ html[data-theme="dark"] {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.08em;
-    padding: 6px 0;
+    padding: 7px 0;
     margin-left: 30%;
     text-decoration: none;
     line-height: 1;
@@ -81,9 +90,9 @@ html[data-theme="dark"] {
 .topnav .brand .nav-logo {
     display: block;
     width: auto !important;
-    height: 30px !important;
-    max-width: 120px !important;
-    max-height: 30px !important;
+    height: 26px !important;
+    max-width: 104px !important;
+    max-height: 26px !important;
     object-fit: contain;
     margin: 0;
 }
@@ -94,9 +103,9 @@ html[data-theme="dark"] {
 
 .theme-toggle {
     float: right;
-    width: 34px;
-    height: 34px;
-    margin: 4px 8px 0 4px;
+    width: 32px;
+    height: 32px;
+    margin: 5px 10px 0 4px;
     border: 1px solid rgba(255,255,255,0.42);
     border-radius: 50%;
     background: rgba(255,255,255,0.08);
@@ -126,7 +135,8 @@ html[data-theme="dark"] {
     text-align: center;
     padding: 10px 9px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: 600;
     letter-spacing: 0.02em;
     position: relative;
     transition: color 0.2s ease;
@@ -158,8 +168,8 @@ html[data-theme="dark"] {
 }
 
 .image.avatar img {
-    width: 150px !important;
-    height: 150px !important;
+    width: 142px !important;
+    height: 142px !important;
     padding: 0 !important;
     object-fit: contain;
     object-position: center center;
@@ -168,7 +178,42 @@ html[data-theme="dark"] {
 
 header,
 section {
-    padding-top: 5em;
+    padding-top: 5.6em;
+}
+
+header {
+    width: 300px;
+}
+
+header h1 {
+    font-size: 26px;
+    margin-bottom: 14px;
+}
+
+header position {
+    display: block;
+    margin-bottom: 2px;
+}
+
+header .social-icons {
+    margin-top: 2px;
+}
+
+header .social-icons a {
+    margin-right: 0.65rem !important;
+}
+
+section {
+    width: 650px;
+}
+
+section h2 {
+    font-size: 150%;
+}
+
+section p,
+section li {
+    font-size: 0.98rem;
 }
 
 blockquote {
@@ -445,7 +490,8 @@ html[data-theme="dark"] .publications ol.bibliography li .links a.btn {
     }
 
     header {
-        padding-top: 64px;
+        padding-top: 76px;
+        width: auto;
     }
 
     .image.avatar img {
@@ -454,7 +500,8 @@ html[data-theme="dark"] .publications ol.bibliography li .links a.btn {
     }
 
     section {
-        padding-top: 32px;
+        padding-top: 40px;
+        width: auto;
     }
 
     .topnav a.icon .icon-wrap {

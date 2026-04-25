@@ -12,12 +12,13 @@
 
 <ul style="margin:0 0 5px;">
   <li><autocolor>Machine Learning Engineer, Advanced Chemical Industries Limited — AI-based defect detection, tabular data analysis, document sorting (Apr 2025 – Present)</autocolor></li>
+  <li><autocolor>Industrial Attachment, Fiber@Home Ltd. — optical networking and telecommunications operations (Jun 2024 – Jul 2024)</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Community & Volunteer</h4>
 
 <ul style="margin:0 0 20px;">
-  <li><autocolor>Student Executive, ACM SIGCOMM — developed the official SIGCOMM website and co-founded the SIGCOMM paper reading group (Apr 2024 – Feb 2025)</autocolor></li>
+  <li><autocolor>Student Executive, ACM SIGCOMM — developed the official ACM SIGCOMM website under Dr. Matthew Caesar's mentorship and co-founded the SIGCOMM paper reading group (Apr 2024 – Feb 2025)</autocolor></li>
 </ul>
 
 ## Honors & Awards

@@ -78,11 +78,12 @@ google_scholar: https://scholar.google.com/citations?hl=en&user=Fbrzj109-NEC
 cv_link: assets/files/Aranya_Saha_CV.pdf
 github_link: https://github.com/thisisAranya
 linkedin: http://linkedin.com/in/aranya-saha/
+facebook: https://www.facebook.com/aranyasaha26
 
 # Images
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+avatar: /assets/img/avatar.png
+favicon: /assets/img/favicon.png
+favicon_dark: /assets/img/favicon-dark.png
 
 # Footnote
 enable_footnote: true
@@ -96,16 +97,20 @@ font: "Serif"
 # Use this project as a remote theme for GitHub Pages
 remote_theme: yaoyao-liu/minimal-light
 
-# Navigation bar — mirrors Yaoyao Liu's layout
+# Navigation bar
+nav_brand: AS
+nav_logo: /assets/img/UMD-logo.webp
 nav_links:
-  - title: Home
-    url: /
+  - title: Experience
+    url: /experience/
+  - title: Projects
+    url: /projects/
+  - title: Research
+    url: /research/
   - title: Publications
     url: /publications/
-  - title: Services
-    url: /services/
-  - title: Honors
-    url: /honors/
+  - title: Home
+    url: /
 
 # The following files will be removed from the generated website.
 exclude:

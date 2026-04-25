@@ -19,14 +19,17 @@ I currently work as a **Machine Learning Engineer** at Advanced Chemical Industr
 ## News
 
 - **[Nov. 2025]** Joined BUET as Adjunct Lecturer, Department of EEE.
-- **[2025]** Awarded 1st Runner-Up at the BEAR Summit 2025 AI Poster Competition.
+- **[Oct. 2025]** GRPO++ uploaded to arXiv as a preprint.
+- **[Aug. 2025]** CLARIFY uploaded to arXiv as a preprint.
+- **[Aug. 2025]** Awarded 1st Runner-Up at the BEAR Summit 2025 AI Poster Competition.
+- **[Jul. 2025]** Compression Strategies for Efficient Multimodal LLMs in Medical Contexts uploaded to arXiv as a preprint.
 - **[Jun. 2025]** Two papers accepted at the 2nd Int'l Conf. on Next-Gen Computing, IoT and Machine Learning (NCIM 2025).
 - **[Jun. 2025]** Presented at Robotics Bootcamp 2025 at BUET (PID Control for Robotics).
 - **[Apr. 2025]** Joined Advanced Chemical Industries Limited as a Machine Learning Engineer.
 - **[Mar. 2025]** Completed my B.Sc. in EEE from BUET.
 
+## Contact
 
+Email: aranyasaha932 (at) gmail.com
 
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
+For more details, see my [publications]({{ "/publications/" | relative_url }}), [research]({{ "/research/" | relative_url }}), [projects]({{ "/projects/" | relative_url }}), and [experience]({{ "/experience/" | relative_url }}) pages.

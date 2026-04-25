@@ -2,28 +2,33 @@ main:
 
   - title: "GRPO++: Enhancing Dermatological Reasoning Under Low-Resource Settings"
     authors: I. N. Swapnil*, <strong>A. Saha*</strong>, T. A. Khan*, M. A. Haque (* Equal Contribution)
-    # conference_short: Under Review
-    # conference: Under Review at <strong>IEEE Journal of Biomedical and Health Informatics</strong>.
-    notes: Under Review at IEEE JBHI
+    conference_short: Under Review
+    conference: Under Review at <strong>IEEE Journal of Biomedical and Health Informatics</strong>.
+    pdf: https://arxiv.org/abs/2510.01236
+    notes: Preprint
 
   - title: "CLARIFY: A Specialist–Generalist Framework for Accurate and Lightweight Dermatological Visual Question Answering"
     authors: <strong>A. Saha*</strong>, T. A. Khan*, I. N. Swapnil*, M. A. Haque (* Equal Contribution)
-    # conference_short: Preprint
-    # conference: Preprint.
+    conference_short: Preprint
+    conference: Preprint.
+    pdf: https://arxiv.org/abs/2508.18430
     notes: Preprint
 
   - title: "Compression Strategies for Efficient Multimodal LLMs in Medical Contexts"
     authors: T. A. Khan, <strong>A. Saha</strong>, I. N. Swapnil, M. A. Haque
-    # conference_short: Preprint
-    # conference: Preprint.
+    conference_short: Preprint
+    conference: Preprint.
+    pdf: https://arxiv.org/abs/2507.21976
     notes: Preprint
 
   - title: "Skin Cancer Classification Using Pre-trained CNNs: A Transfer Learning Approach Addressing Imbalanced Data Challenges"
     authors: S. Sobhan, <strong>A. Saha</strong>, T. A. Khan, A. Zami
     conference_short: NCIM
     conference: 2nd International Conference on Next-Gen Computing, IoT and Machine Learning <strong>(NCIM)</strong>, 2025.
+    doi: https://doi.org/10.1109/NCIM65934.2025.11160090
 
   - title: "A Multi-Stage Deep Learning Approach to Tuberculosis Detection with Explainable Insights"
     authors: S. Sobhan, A. Zami, M. Ahmed, T. M. Zihan, T. A. Khan, <strong>A. Saha</strong>
     conference_short: NCIM
     conference: 2nd International Conference on Next-Gen Computing, IoT and Machine Learning <strong>(NCIM)</strong>, 2025.
+    doi: https://doi.org/10.1109/NCIM65934.2025.11159991

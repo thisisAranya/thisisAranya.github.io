@@ -184,6 +184,15 @@ html[data-theme="dark"] strong {
   margin-right: 30%;
 }
 
+.image.avatar img {
+  width: 150px !important;
+  height: 150px !important;
+  padding: 0 !important;
+  object-fit: contain;
+  object-position: center center;
+  background: #fff;
+}
+
 header,
 section {
   padding-top: 5em;
@@ -247,6 +256,11 @@ section {
 
   header {
     padding-top: 64px;
+  }
+
+  .image.avatar img {
+    width: 132px !important;
+    height: 132px !important;
   }
 
   section {

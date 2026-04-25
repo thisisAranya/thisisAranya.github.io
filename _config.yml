@@ -100,7 +100,7 @@ remote_theme: yaoyao-liu/minimal-light
 # Navigation bar
 nav_brand: AS
 nav_logo: /assets/img/UMD-logo.webp
-asset_version: 20260425-nav-gap
+asset_version: 20260425-avatar-fit
 nav_links:
   - title: Experience
     url: /experience/

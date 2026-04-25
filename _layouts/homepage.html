@@ -34,12 +34,22 @@
     <link rel="stylesheet" href="{{ "/assets/css/publications-no-dark-mode.css" | relative_url }}">
     {% endif %}
 
+    <style>
+      .topnav .nav-logo {
+        width: auto !important;
+        height: 30px !important;
+        max-width: 120px !important;
+        max-height: 30px !important;
+        object-fit: contain !important;
+      }
+    </style>
+
   </head>
   <body>
     <div class="topnav">
       <a class="brand" href="{{ "/" | relative_url }}" aria-label="{{ site.title }} home">
         {% if site.nav_logo %}
-        <img src="{{ site.nav_logo | relative_url }}" alt="{{ site.title }} logo">
+        <img class="nav-logo" src="{{ site.nav_logo | relative_url }}" alt="{{ site.title }} logo" width="120" height="40">
         {% else %}
         {{ site.nav_brand | default: site.title }}
         {% endif %}

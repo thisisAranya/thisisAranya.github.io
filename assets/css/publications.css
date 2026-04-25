@@ -42,6 +42,11 @@
     box-shadow: 0 2px 16px rgba(0,0,0,0.22);
 }
 
+.topnav,
+.topnav * {
+    box-sizing: border-box;
+}
+
 .topnav .brand {
     float: left;
     color: #fff;
@@ -54,10 +59,13 @@
     line-height: 1;
 }
 
-.topnav .brand img {
+.topnav .brand img,
+.topnav .brand .nav-logo {
     display: block;
-    width: 92px;
-    height: 30px;
+    width: auto !important;
+    height: 30px !important;
+    max-width: 120px !important;
+    max-height: 30px !important;
     object-fit: contain;
     margin: 0;
 }

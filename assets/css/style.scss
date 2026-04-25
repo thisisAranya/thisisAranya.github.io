@@ -184,6 +184,11 @@ html[data-theme="dark"] strong {
   margin-right: 30%;
 }
 
+header,
+section {
+  padding-top: 5em;
+}
+
 @media print, screen and (max-width: 1000px) {
   .topnav .brand {
     margin-left: 3%;
@@ -238,5 +243,13 @@ html[data-theme="dark"] strong {
     right: 0;
     top: 0;
     margin-right: 5%;
+  }
+
+  header {
+    padding-top: 64px;
+  }
+
+  section {
+    padding-top: 32px;
   }
 }

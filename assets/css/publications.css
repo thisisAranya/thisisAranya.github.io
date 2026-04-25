@@ -157,6 +157,11 @@ html[data-theme="dark"] {
     margin-right: 30%;
 }
 
+header,
+section {
+    padding-top: 5em;
+}
+
 blockquote {
     background: var(--global-bg-color);
     border-left: 2px solid var(--global-theme-color);
@@ -428,6 +433,14 @@ html[data-theme="dark"] .publications ol.bibliography li .links a.btn {
         right: 0;
         top: 0;
         margin-right: 5%;
+    }
+
+    header {
+        padding-top: 64px;
+    }
+
+    section {
+        padding-top: 32px;
     }
 
     .topnav a.icon .icon-wrap {

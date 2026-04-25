@@ -29,19 +29,38 @@
     </script>
     
     {% if site.font == "Sans Serif" %}
-    <link rel="stylesheet" href="{{ "/assets/css/font_sans_serif.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/font_sans_serif.css" | relative_url }}?v={{ site.asset_version }}">
     {% else %}
-    <link rel="stylesheet" href="{{ "/assets/css/font.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/font.css" | relative_url }}?v={{ site.asset_version }}">
     {% endif %}
     {% if site.auto_dark_mode %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/publications.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}?v={{ site.asset_version }}">
+    <link rel="stylesheet" href="{{ "/assets/css/publications.css" | relative_url }}?v={{ site.asset_version }}">
     {% else %}
-    <link rel="stylesheet" href="{{ "/assets/css/style-no-dark-mode.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/publications-no-dark-mode.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style-no-dark-mode.css" | relative_url }}?v={{ site.asset_version }}">
+    <link rel="stylesheet" href="{{ "/assets/css/publications-no-dark-mode.css" | relative_url }}?v={{ site.asset_version }}">
     {% endif %}
 
     <style>
+      html[data-theme="dark"] body {
+        background-color: #20212b !important;
+        color: #dadbdf !important;
+      }
+      html[data-theme="dark"] h1,
+      html[data-theme="dark"] h2,
+      html[data-theme="dark"] h3,
+      html[data-theme="dark"] h4,
+      html[data-theme="dark"] h5,
+      html[data-theme="dark"] h6,
+      html[data-theme="dark"] strong {
+        color: #eeeff0 !important;
+      }
+      html[data-theme="dark"] a {
+        color: #3eb7f0 !important;
+      }
+      html[data-theme="dark"] autocolor {
+        color: #dadbdf !important;
+      }
       .topnav .nav-logo {
         width: auto !important;
         height: 30px !important;

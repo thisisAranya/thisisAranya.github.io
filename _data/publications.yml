@@ -3,30 +3,30 @@ main:
   - title: "Gradient Extrapolation-Based Policy Optimization"
     authors: I. N. Swapnil, <strong>A. Saha</strong>, T. A. Khan, M. A. Haque, S. N. Lim
     # conference_short: Under Review
-    conference: Preprint.
+    # conference: Preprint.
     pdf: https://arxiv.org/abs/2605.06755
-    # notes: Preprint
+    notes: Preprint
 
   - title: "GRPO++: Enhancing Dermatological Reasoning Under Low-Resource Settings"
     authors: I. N. Swapnil*, <strong>A. Saha*</strong>, T. A. Khan*, M. A. Haque (* Equal Contribution)
     # conference_short: Under Review
-    conference: Preprint.
+    # conference: Preprint.
     pdf: https://arxiv.org/abs/2510.01236
-    # notes: Preprint
+    notes: Preprint
 
   - title: "CLARIFY: A Specialist–Generalist Framework for Accurate and Lightweight Dermatological Visual Question Answering"
     authors: <strong>A. Saha*</strong>, T. A. Khan*, I. N. Swapnil*, M. A. Haque (* Equal Contribution)
     # conference_short: Preprint
-    conference: Preprint.
+    # conference: Preprint.
     pdf: https://arxiv.org/abs/2508.18430
-    # notes: Preprint
+    notes: Preprint
 
   - title: "Compression Strategies for Efficient Multimodal LLMs in Medical Contexts"
     authors: T. A. Khan, <strong>A. Saha</strong>, I. N. Swapnil, M. A. Haque
     # conference_short: Preprint
-    conference: Preprint.
+    # conference: Preprint.
     pdf: https://arxiv.org/abs/2507.21976
-    # notes: Preprint
+    notes: Preprint
 
   - title: "Skin Cancer Classification Using Pre-trained CNNs: A Transfer Learning Approach Addressing Imbalanced Data Challenges"
     authors: S. Sobhan, <strong>A. Saha</strong>, T. A. Khan, A. Zami

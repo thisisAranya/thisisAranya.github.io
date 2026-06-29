@@ -449,7 +449,6 @@ footer.fixed-bottom {
 
   .container {
     color: var(--global-footer-text-color);
-    max-width: $max-content-width;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -504,7 +503,7 @@ footer.sticky-bottom {
   }
 
   .profile {
-    margin-top: -0.7rem;
+    margin-top: -0.25rem;
 
     img {
       aspect-ratio: 1 / 1;
@@ -515,32 +514,12 @@ footer.sticky-bottom {
     }
   }
 
-  .home-callout {
-    align-items: center;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 6px;
-    display: flex;
-    gap: 1rem;
-    margin: 1.5rem 0 2.45rem;
-    padding: 1.15rem 1.45rem;
-  }
-
-  .home-callout-icon {
-    align-items: center;
-    color: var(--global-theme-color);
-    display: inline-flex;
-    flex: 0 0 auto;
-    font-size: 1.35rem;
-    justify-content: center;
-    width: 2rem;
-  }
-
   .home-two-column {
     clear: both;
     display: grid;
     gap: 4.5rem;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    margin-top: 2rem;
+    margin-top: 2.25rem;
 
     h2 {
       font-size: 2.15rem;
@@ -563,7 +542,7 @@ footer.sticky-bottom {
     padding-right: 0.75rem;
 
     article > p {
-      max-width: 910px;
+      max-width: 870px;
     }
   }
 }
@@ -572,7 +551,7 @@ footer.sticky-bottom {
   .about-page {
     .profile {
       width: 30%;
-      max-width: 440px;
+      max-width: 430px;
     }
   }
 }
@@ -588,6 +567,12 @@ footer.sticky-bottom {
 
   body > .container.mt-5 {
     margin-top: 2.25rem !important;
+  }
+
+  body > .container,
+  #navbar > .container,
+  footer.fixed-bottom > .container {
+    width: calc(100% - 30px);
   }
 
   .navbar {
@@ -623,12 +608,6 @@ footer.sticky-bottom {
       margin: 0 auto 1.75rem;
       max-width: 280px;
       width: 72%;
-    }
-
-    .home-callout {
-      align-items: flex-start;
-      margin-top: 1.25rem;
-      padding: 1rem;
     }
 
     .home-two-column {

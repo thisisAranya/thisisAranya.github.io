@@ -1,0 +1,99 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Aranya Saha
+    - name: Current Affiliation
+      value: "Incoming Ph.D. student, Electrical & Computer Engineering, University of Maryland, College Park"
+    - name: Email
+      value: aranyasaha932 (at) gmail.com
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Incoming Ph.D. Student, Electrical & Computer Engineering
+      institution: University of Maryland, College Park
+      year: 2026
+    - title: B.Sc. in Electrical and Electronic Engineering
+      institution: Bangladesh University of Engineering and Technology
+      year: 2025
+      description:
+        - Major in Communication and Signal Processing.
+    - title: Higher Secondary Certificate, Science
+      institution: Notre Dame College, Bangladesh
+      year: 2019
+    - title: Secondary School Certificate, Science
+      institution: Rajuk Uttara Model College, Bangladesh
+      year: 2017
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Machine Learning Engineer
+      institution: Advanced Chemical Industries Limited
+      year: Apr 2025 - Present
+      description:
+        - AI-based defect detection, tabular data analysis, and document sorting.
+    - title: Adjunct Lecturer
+      institution: Department of EEE, Bangladesh University of Engineering and Technology
+      year: Nov 2025 - Present
+      description:
+        - Wireless Communication Laboratory.
+        - "Robotics & Automation Laboratory."
+        - Digital Signal Processing Sessional.
+        - "Basic Electrical & Electronic Circuit Sessional."
+    - title: Instructor
+      institution: Robotics Bootcamp 2025, Institute of Robotics and Automation, BUET
+      year: Jun 2025
+      description:
+        - PID Control for Robotics.
+    - title: Industrial Attachment
+      institution: Fiber@Home Ltd.
+      year: Jun 2024 - Jul 2024
+      description:
+        - Optical networking and telecommunications operations.
+
+- title: Community and Service
+  type: time_table
+  contents:
+    - title: Student Executive
+      institution: ACM SIGCOMM
+      year: Apr 2024 - Feb 2025
+      description:
+        - Developed the official ACM SIGCOMM website under Dr. Matthew Caesar's mentorship.
+        - Co-founded the SIGCOMM paper reading group.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - 1st Runner-Up, Poster Competition (AI), BEAR Summit 2025.
+    - year: BUET
+      items:
+        - University Merit Scholarship for 4 semesters for outstanding academic performance.
+        - Dean's List Award for Years 1-2 for high cumulative GPA.
+    - year: 2019
+      items:
+        - 29th Rank out of 10,000+ candidates, BUET Undergraduate Admission Test.
+        - 31st Rank, Male Category, out of 300,000+ candidates, Dhaka Board HSC.
+        - Talent Pool Scholarship recipient.
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Efficient AI
+      items:
+        - Model compression, efficient inference, lightweight architectures.
+    - title: Trustworthy AI
+      items:
+        - Robustness, fairness, interpretability.
+    - title: Theoretical ML
+      items:
+        - Information theory and learning theory.
+    - title: Multimodal Learning
+      items:
+        - Vision-language models and medical AI.
+    - title: Reinforcement Learning
+      items:
+        - Decision-making and sequential learning.

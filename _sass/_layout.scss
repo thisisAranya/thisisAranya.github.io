@@ -28,13 +28,14 @@ body.sticky-bottom-footer {
 
 body > .container,
 #navbar > .container,
-footer.fixed-bottom > .container {
-  max-width: 1430px !important;
+footer.fixed-bottom > .container,
+footer.sticky-bottom > .container {
+  max-width: $max-content-width !important;
   width: calc(100% - 48px);
 }
 
 body > .container.mt-5 {
-  margin-top: 3rem !important;
+  margin-top: 3.2rem !important;
 }
 
 // Profile

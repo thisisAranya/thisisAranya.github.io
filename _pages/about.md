@@ -20,11 +20,6 @@ I am an incoming Ph.D. student in the Department of Electrical & Computer Engine
 
 I currently work as a **Machine Learning Engineer** at Advanced Chemical Industries Limited. I also worked as an **Adjunct Lecturer** at BUET's Department of EEE for 1 semester.
 
-<div class="home-callout">
-  <span class="home-callout-icon"><i class="fa-solid fa-graduation-cap"></i></span>
-  <span>Incoming Ph.D. student at <strong>University of Maryland, College Park</strong>, working toward efficient, trustworthy, and multimodal AI.</span>
-</div>
-
 <div class="home-two-column">
   <section>
     <h2>Interests</h2>

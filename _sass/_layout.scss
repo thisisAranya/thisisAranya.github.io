@@ -26,8 +26,15 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
+body > .container,
+#navbar > .container,
+footer.fixed-bottom > .container {
+  max-width: 1430px !important;
+  width: calc(100% - 48px);
+}
+
 body > .container.mt-5 {
-  margin-top: 4.35rem !important;
+  margin-top: 3rem !important;
 }
 
 // Profile

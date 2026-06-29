@@ -4,6 +4,11 @@
 
 // Typography
 
+body {
+  font-size: 1.12rem;
+  line-height: 1.58;
+}
+
 p,
 h1,
 h2,
@@ -17,6 +22,28 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+}
+
+p {
+  margin-bottom: 1.35rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-size: 2.15rem;
+  margin-top: 2.35rem;
+  margin-bottom: 0.85rem;
+}
+
+h3 {
+  font-size: 1.85rem;
+  margin-top: 2rem;
 }
 
 hr {
@@ -177,16 +204,17 @@ blockquote {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 3.75rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 3.75rem;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 31%;
+    max-width: 430px;
 
     .address {
       p {
@@ -217,7 +245,8 @@ blockquote {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  min-height: 70px;
+  opacity: 0.98;
 }
 
 .navbar .dropdown-menu {
@@ -259,6 +288,9 @@ blockquote {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-size: 1.05rem;
+    padding-left: 0.65rem;
+    padding-right: 0.65rem;
 
     &:hover {
       color: var(--global-hover-color);
@@ -278,9 +310,13 @@ blockquote {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.7rem;
+    font-size: 1.75rem;
+    line-height: 1;
+    white-space: nowrap;
 
     a {
+      margin-right: 0.28rem;
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -340,6 +376,8 @@ blockquote {
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
+  font-size: 1.08rem;
+  line-height: 2.25;
 
   &:hover {
     color: var(--global-hover-color);
@@ -407,12 +445,13 @@ blockquote {
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
-  font-size: 0.75rem;
+  font-size: 0.83rem;
 
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 9px;
-    padding-bottom: 8px;
+    max-width: $max-content-width;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   a {
@@ -430,6 +469,177 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+}
+
+// Awsaf-inspired homepage composition
+.about-page {
+  max-width: 100%;
+
+  .post-header {
+    margin-bottom: 1.6rem;
+
+    .post-title {
+      font-size: 3rem;
+      line-height: 1.08;
+      margin-bottom: 1rem;
+
+      .font-weight-bold {
+        font-weight: 800 !important;
+      }
+    }
+
+    .desc {
+      font-size: 1.18rem;
+      line-height: 1.45;
+      margin-bottom: 0;
+    }
+  }
+
+  article {
+    font-size: 1.08rem;
+  }
+
+  .clearfix {
+    max-width: 100%;
+  }
+
+  .profile {
+    margin-top: -0.7rem;
+
+    img {
+      aspect-ratio: 1 / 1;
+      border-radius: 50% !important;
+      object-fit: cover;
+      width: 100%;
+      box-shadow: 0 0.45rem 1.15rem rgba(0, 0, 0, 0.18) !important;
+    }
+  }
+
+  .home-callout {
+    align-items: center;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0 2.45rem;
+    padding: 1.15rem 1.45rem;
+  }
+
+  .home-callout-icon {
+    align-items: center;
+    color: var(--global-theme-color);
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-size: 1.35rem;
+    justify-content: center;
+    width: 2rem;
+  }
+
+  .home-two-column {
+    clear: both;
+    display: grid;
+    gap: 4.5rem;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    margin-top: 2rem;
+
+    h2 {
+      font-size: 2.15rem;
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 1.45rem;
+    }
+
+    li {
+      margin-bottom: 0.35rem;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .about-page {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+
+    article > p {
+      max-width: 910px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-page {
+    .profile {
+      width: 30%;
+      max-width: 440px;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  body {
+    font-size: 1rem;
+  }
+
+  body.fixed-top-nav {
+    padding-top: 64px;
+  }
+
+  body > .container.mt-5 {
+    margin-top: 2.25rem !important;
+  }
+
+  .navbar {
+    min-height: 64px;
+  }
+
+  .navbar.navbar-light {
+    .navbar-brand.social {
+      font-size: 1.45rem;
+      max-width: calc(100vw - 92px);
+      overflow: hidden;
+    }
+
+    .navbar-nav {
+      padding-top: 1rem;
+    }
+  }
+
+  .about-page {
+    .post-header {
+      .post-title {
+        font-size: 2.35rem;
+      }
+
+      .desc {
+        font-size: 1.02rem;
+      }
+    }
+
+    .profile.float-right,
+    .profile.float-left {
+      float: none !important;
+      margin: 0 auto 1.75rem;
+      max-width: 280px;
+      width: 72%;
+    }
+
+    .home-callout {
+      align-items: flex-start;
+      margin-top: 1.25rem;
+      padding: 1rem;
+    }
+
+    .home-two-column {
+      gap: 1.65rem;
+      grid-template-columns: 1fr;
+
+      h2 {
+        font-size: 1.9rem;
+      }
+    }
+  }
 }
 
 // CV

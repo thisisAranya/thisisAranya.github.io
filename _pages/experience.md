@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: experience
+title: Experience
 permalink: /experience/
 description:
 nav: true

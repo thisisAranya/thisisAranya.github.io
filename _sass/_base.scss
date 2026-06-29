@@ -4,11 +4,6 @@
 
 // Typography
 
-body {
-  font-size: 1.12rem;
-  line-height: 1.58;
-}
-
 p,
 h1,
 h2,
@@ -22,28 +17,6 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-}
-
-p {
-  margin-bottom: 1.35rem;
-}
-
-h1,
-h2,
-h3 {
-  font-weight: 400;
-  letter-spacing: 0;
-}
-
-h2 {
-  font-size: 2.15rem;
-  margin-top: 2.35rem;
-  margin-bottom: 0.85rem;
-}
-
-h3 {
-  font-size: 1.85rem;
-  margin-top: 2rem;
 }
 
 hr {
@@ -288,7 +261,6 @@ blockquote {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-    font-size: 1.05rem;
     padding-left: 0.65rem;
     padding-right: 0.65rem;
 
@@ -310,7 +282,7 @@ blockquote {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.75rem;
+    font-size: 1.7rem;
     line-height: 1;
     white-space: nowrap;
 
@@ -376,7 +348,6 @@ blockquote {
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
-  font-size: 1.08rem;
   line-height: 2.25;
 
   &:hover {
@@ -469,7 +440,7 @@ footer.sticky-bottom {
   margin-top: 3rem;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 0.83rem;
+  font-size: 0.9rem;
 
   .container {
     color: var(--global-footer-text-color);
@@ -493,7 +464,7 @@ footer.sticky-bottom {
     margin-bottom: 1.6rem;
 
     .post-title {
-      font-size: 3rem;
+      font-size: 2.5rem;
       line-height: 1.08;
       margin-bottom: 1rem;
 
@@ -503,14 +474,14 @@ footer.sticky-bottom {
     }
 
     .desc {
-      font-size: 1.18rem;
+      font-size: 1rem;
       line-height: 1.45;
       margin-bottom: 0;
     }
   }
 
   article {
-    font-size: 1.08rem;
+    font-size: 1rem;
   }
 
   .clearfix {
@@ -537,7 +508,7 @@ footer.sticky-bottom {
     margin-top: 2.25rem;
 
     h2 {
-      font-size: 2.15rem;
+      font-size: 2rem;
       margin-top: 0;
     }
 
@@ -610,11 +581,11 @@ footer.sticky-bottom {
   .about-page {
     .post-header {
       .post-title {
-        font-size: 2.35rem;
+        font-size: 2.5rem;
       }
 
       .desc {
-        font-size: 1.02rem;
+        font-size: 1rem;
       }
     }
 
@@ -631,7 +602,7 @@ footer.sticky-bottom {
       grid-template-columns: 1fr;
 
       h2 {
-        font-size: 1.9rem;
+        font-size: 2rem;
       }
     }
   }

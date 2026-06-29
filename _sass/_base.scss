@@ -465,9 +465,24 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  background-color: var(--global-footer-bg-color);
+  margin-top: 3rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 0.83rem;
+
+  .container {
+    color: var(--global-footer-text-color);
+  }
+
+  a {
+    color: var(--global-footer-link-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
 }
 
 // Awsaf-inspired homepage composition
@@ -542,7 +557,7 @@ footer.sticky-bottom {
     padding-right: 0.75rem;
 
     article > p {
-      max-width: 870px;
+      max-width: 720px;
     }
   }
 }
@@ -550,8 +565,8 @@ footer.sticky-bottom {
 @media (min-width: 1200px) {
   .about-page {
     .profile {
-      width: 30%;
-      max-width: 430px;
+      width: 34%;
+      max-width: 360px;
     }
   }
 }
@@ -571,7 +586,8 @@ footer.sticky-bottom {
 
   body > .container,
   #navbar > .container,
-  footer.fixed-bottom > .container {
+  footer.fixed-bottom > .container,
+  footer.sticky-bottom > .container {
     width: calc(100% - 30px);
   }
 

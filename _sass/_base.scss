@@ -218,7 +218,7 @@ blockquote {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  min-height: 70px;
+  min-height: 49px;
   opacity: 0.98;
 }
 
@@ -489,7 +489,7 @@ footer.sticky-bottom {
   }
 
   .profile {
-    margin-top: -0.25rem;
+    margin-top: -6.25rem;
 
     img {
       aspect-ratio: 1 / 1;
@@ -1040,7 +1040,7 @@ progress {
   /* Positioning */
   position: fixed;
   left: 0;
-  top: 56px;
+  top: 49px;
   z-index: 10;
 
   /* Dimensions */
@@ -1078,7 +1078,7 @@ progress::-moz-progress-bar {
   width: 100%;
   background-color: transparent;
   position: fixed;
-  top: 56px;
+  top: 49px;
   left: 0;
   height: 5px;
   display: block;

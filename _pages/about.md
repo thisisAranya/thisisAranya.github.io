@@ -46,4 +46,4 @@ I currently work as a **Machine Learning Engineer** at Advanced Chemical Industr
 - **Email:** aranyasaha932 (at) gmail.com
 - **CV:** [Aranya_Saha_CV.pdf](/assets/pdf/Aranya_Saha_CV.pdf)
 
-For more details, see my [publications]({{ "/publications/" | relative_url }}), [research]({{ "/research/" | relative_url }}), [projects]({{ "/projects/" | relative_url }}), and [experience]({{ "/experience/" | relative_url }}) pages.
+For more details, see my [publications]({{ "/publications/" | relative_url }}), [research]({{ "/research/" | relative_url }}), and [experience]({{ "/experience/" | relative_url }}) pages.

@@ -506,6 +506,7 @@ footer.sticky-bottom {
     gap: 4.5rem;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     margin-top: 2.25rem;
+    margin-bottom: 4.5rem;
 
     h2 {
       font-size: 2rem;
@@ -519,6 +520,16 @@ footer.sticky-bottom {
     li {
       margin-bottom: 0.35rem;
     }
+  }
+
+  .clearfix > h2,
+  article > h2 {
+    margin-top: 4.5rem;
+  }
+
+  .clearfix > ul,
+  .clearfix > p {
+    margin-bottom: 2rem;
   }
 }
 
@@ -600,10 +611,16 @@ footer.sticky-bottom {
     .home-two-column {
       gap: 1.65rem;
       grid-template-columns: 1fr;
+      margin-bottom: 3rem;
 
       h2 {
         font-size: 2rem;
       }
+    }
+
+    .clearfix > h2,
+    article > h2 {
+      margin-top: 3rem;
     }
   }
 }

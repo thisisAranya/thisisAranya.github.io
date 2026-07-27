@@ -505,8 +505,8 @@ footer.sticky-bottom {
     display: grid;
     gap: 4.5rem;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    margin-top: 2.25rem;
-    margin-bottom: 2.25rem;
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
 
     h2 {
       font-size: 2rem;
@@ -524,7 +524,7 @@ footer.sticky-bottom {
 
   .clearfix > h2,
   article > h2 {
-    margin-top: 2.25rem;
+    margin-top: 1.75rem;
   }
 
   .clearfix > ul,

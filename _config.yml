@@ -8,7 +8,7 @@ middle_name:
 last_name: Saha
 email: aranya@umd.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Incoming Ph.D. student in Electrical & Computer Engineering at the University of Maryland, College Park.
+  Ph.D. student in Electrical & Computer Engineering at the University of Maryland, College Park.
   Research interests: Efficient AI, Trustworthy AI, Information Theory, Multimodal Learning, and Reinforcement Learning.
 footer_text: >
   &copy; Copyright 2026 Aranya Saha. Adopted from <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.

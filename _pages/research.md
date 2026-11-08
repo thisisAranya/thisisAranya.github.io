@@ -7,15 +7,14 @@ nav: true
 nav_order: 3
 ---
 
-My research interests center on efficient, trustworthy, and multimodal learning systems, with a current focus on medical AI and lightweight vision-language models.
+I am a Ph.D. student at the University of Maryland, College Park, advised by [Prof. Sanghamitra Dutta](https://sites.google.com/site/sanghamitraweb/), working on efficient and trustworthy AI. My interests include distillation, reinforcement learning for LLMs, LLM unlearning, and deep learning theory, building on prior work in multimodal learning and model optimization for medical AI.
 
 ## Research Interests
 
-- **Efficient AI:** model compression, efficient inference, lightweight architectures
-- **Trustworthy AI:** robustness, fairness, interpretability
-- **Theoretical ML:** information theory, learning theory
-- **Multimodal Learning:** vision-language models, medical AI
-- **Reinforcement Learning:** decision-making, sequential learning
+- **Distillation:** knowledge transfer, compact and efficient models
+- **RL for LLMs:** policy optimization, reasoning, efficient post-training
+- **LLM Unlearning:** removing data and knowledge from trained models
+- **Deep Learning Theory:** foundations of how and why deep networks learn
 
 ## Undergraduate Thesis
 

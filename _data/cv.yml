@@ -4,21 +4,24 @@
     - name: Full Name
       value: Aranya Saha
     - name: Current Affiliation
-      value: "Incoming Ph.D. student, Electrical & Computer Engineering, University of Maryland, College Park"
+      value: "Ph.D. student, Electrical & Computer Engineering, University of Maryland, College Park"
     - name: Email
-      value: aranyasaha932 (at) gmail.com
+      value: aranya (at) umd.edu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD Student, Electrical & Computer Engineering
+    - title: Ph.D. in Electrical & Computer Engineering
       institution: University of Maryland, College Park
-      year: 2026
+      year: Aug 2026 - Present
+      description:
+        - "Research Advisor: Prof. Sanghamitra Dutta."
     - title: B.Sc. in Electrical and Electronic Engineering
       institution: Bangladesh University of Engineering and Technology
-      year: 2025
+      year: Feb 2020 - Mar 2025
       description:
         - Major in Communication and Signal Processing.
+        - "Research Advisor: Prof. Mohammad Ariful Haque."
     - title: Higher Secondary Certificate, Science
       institution: Notre Dame College, Bangladesh
       year: 2019
@@ -29,14 +32,17 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Graduate Research Assistant
+      institution: University of Maryland, College Park
+      year: Aug 2026 - Present
     - title: Machine Learning Engineer
-      institution: Advanced Chemical Industries Limited
-      year: Apr 2025 - Present
+      institution: Advanced Chemical Industries PLC
+      year: Apr 2025 - Aug 2026
       description:
         - AI-based defect detection, tabular data analysis, and document sorting.
-    - title: Adjunct Lecturer
+    - title: Part-time Lecturer
       institution: Department of EEE, Bangladesh University of Engineering and Technology
-      year: Nov 2025 - Present
+      year: Nov 2025 - Apr 2026
       description:
         - Wireless Communication Laboratory.
         - "Robotics & Automation Laboratory."
@@ -66,6 +72,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - "Dean's Fellowship (ECE), University of Maryland, College Park (Fall 2026, Spring 2027)."
     - year: 2025
       items:
         - 1st Runner-Up, Poster Competition (AI), BEAR Summit 2025.
@@ -78,22 +87,20 @@
         - 29th Rank out of 10,000+ candidates, BUET Undergraduate Admission Test.
         - 31st Rank, Male Category, out of 300,000+ candidates, Dhaka Board HSC.
         - Talent Pool Scholarship recipient.
+        - Perfect Attendance Certificate (11th and 12th Standard), Notre Dame College, Dhaka.
 
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Efficient AI
+    - title: Distillation
       items:
-        - Model compression, efficient inference, lightweight architectures.
-    - title: Trustworthy AI
+        - Knowledge transfer and compact, efficient models.
+    - title: RL for LLMs
       items:
-        - Robustness, fairness, interpretability.
-    - title: Theoretical ML
+        - Policy optimization, reasoning, and efficient post-training.
+    - title: LLM Unlearning
       items:
-        - Information theory and learning theory.
-    - title: Multimodal Learning
+        - Removing data and knowledge from trained models.
+    - title: Deep Learning Theory
       items:
-        - Vision-language models and medical AI.
-    - title: Reinforcement Learning
-      items:
-        - Decision-making and sequential learning.
+        - Foundations of how and why deep networks learn.

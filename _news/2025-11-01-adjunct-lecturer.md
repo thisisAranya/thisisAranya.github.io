@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**[Nov. 2025]** Joined BUET as Adjunct Lecturer, Department of EEE.
+**[Nov. 2025]** Joined BUET as a Part-time Lecturer in the Department of EEE.
